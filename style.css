@@ -1,0 +1,71 @@
+body{
+    background-color: #1f1f1f1f;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 100vh;
+    margin: 0px;
+    background: linear-gradient(to right, #6DD5FA, #FF758C);
+    
+}
+#todoApp{
+    margin: 0px ;
+    width: 80%;
+    max-width: 400px;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3)
+
+}
+#todoForm input{
+    width: 70%;
+    border: 2px solid #ddd;
+    border-radius: 4px;
+    padding: 8px;
+    margin-right: 10px;
+}
+#todoForm button{
+    padding: 10px 20px;
+    background-color: #5F9EA0;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+#todoForm button:hover{
+    background-color: #4682B4;
+}
+#todoList{
+    list-style: none;
+    padding: 0px;
+}
+#todoList li{
+    background-color: #f9f9f9;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2px;
+}
+.btn{
+    border: none;
+    background-color: none;
+    font-size: 16px;
+    outline: none;
+    font-weight: bold;
+    padding: 8px;
+    cursor: pointer;
+}
+.deletBtn{
+    color: red;
+    border: none;
+}
+.editBtn{
+    color: #008000;
+}
